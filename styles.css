@@ -15,7 +15,6 @@ li{
     overflow:auto;
     /*--background-color:paleturquoise;*/
     text-align: center;
-    font-family: sans-serif;
     background-image: url(fondo1.png);
 
  }
@@ -55,7 +54,7 @@ img{
 
     background-image: url(fondobutton.png);
     text-align: center;
-    font-family: sans-serif;
+
 
 }
 
@@ -98,20 +97,16 @@ p{
     
 
 }
-button{
-    width: 200px;
-    height: 80px;    
-    background-image: url(fondobutton.png);
-    font-size: 25px;
-    border-radius: 5px;
-    border-color: rgb(146, 137, 134);
-    border-style:inset;
-    border-width: 5px;
-    
-}
+
 footer{
     display:-webkit-inline-flex;
     margin: 5px;
     padding: 20px
   
+}
+#backp{
+    text-align: center;
+    background-image: url(fondo1.png);
+   /*background-color: rgb(162, 193, 216);*/
+
 }
