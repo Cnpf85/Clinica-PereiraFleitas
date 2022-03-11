@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+li{
+    display: inline-flex;
+    font-weight: bolder;
+    font-size: 15pt;
+    margin: 50px;  
+    
+    a{
+        text-shadow: 5px black;
+    
+    }
+    
+}
+.Tarjeta {
+ 
+    overflow:auto;
+    /*--background-color:paleturquoise;*/
+    text-align: center;
+    background-image: url(fondo1.png);
+
+ }
+
+.Tarjeta__Menu {
+    
+    overflow: auto;   
+    font-family: Lucida Sans;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-image: url(fondoclaro.png);
+    border-top:solid 7px rgb(240, 130, 4);	
+    border-bottom:solid 7px rgb(245, 189, 7);
+    border-right:solid 7px rgb(50, 161, 161);
+    border-left:solid 7px rgb(50, 161, 161);
+ }
+
+img{
+
+    float: left;
+}
+
+.Tarjeta__img{
+ 
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-top:dotted 5px rgb(240, 130, 4);	
+    border-bottom:dotted 5px rgb(240, 130, 4);
+    border-right:dotted 5px rgb(50, 161, 161);
+    border-left:dotted 5px rgb(50, 161, 161);
+}
+
+.Tarjeta__Input{
+
+   background-color: silver;
+    /*background-image: url(fondobutton.png);*/
+    text-align: center;
+
+
+}
+
+input{
+
+     background-color: gainsboro;
+     font-family: sans-serif;
+     font-size: 20pt;
+     font-style:oblique;
+     font-weight: bold;
+     border-radius: 3px;
+     border-color:black;
+     width: 100%;
+     text-align: center;
+   
+}
+p{
+  
+    text-align: justify;
+    padding: 30px;
+    
+}
+
+.Fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    align-self: center;
+}
+.Grid{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(2, 160px);
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(fondo1.png);
+    
+    
+
+}
+
+footer{
+    display:-webkit-inline-flex;
+    margin: 5px;
+    padding: 20px
+  
+}
+#backp{
+    text-align: center;
+    background-color: gainsboro;
+}

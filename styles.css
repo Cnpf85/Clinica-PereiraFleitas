@@ -82,7 +82,7 @@ p{
 .Fixed{
     position: fixed;
     bottom: 0px;
-    right: 600px;
+    left: 50%;
     align-self: center;
 }
 .Grid{
